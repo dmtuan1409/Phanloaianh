@@ -21,6 +21,7 @@ import numpy as np
 import random
 import os
 import cv2
+#Hàm Đưa ảnh vào mảng X và đưa nhãn vào mảng name
 def load_sequence(folder):
     X = []
     name = []
